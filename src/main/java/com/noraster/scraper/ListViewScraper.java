@@ -12,7 +12,7 @@ import java.util.List;
 public class ListViewScraper extends AbstractScraper {
 
     private static final Logger logger = LoggerFactory.getLogger(ListViewScraper.class);
-    private static final String LIST_URL_START_PAGE = "https://ingatlan.com/lista/elado+lakas+budapest?page=2070";//"https://ingatlan.com/lista/elado+budapest+lakas";
+    private static final String LIST_URL_START_PAGE = "https://ingatlan.com/lista/elado+budapest+lakas";
     private static final String NEW_LINE_CHAR = "\n";
     private final FileWriter fileWriter;
 
